@@ -2,7 +2,7 @@ node {
 
    stage('SCM') {
       // git clone
-	  git 'https://github.com/GitPracticeRepo/spring-petclinic.git'
+	  git 'https://github.com/abhiramIT/petclinic-java.git'
    }
    
    stage ('build the packages') {
